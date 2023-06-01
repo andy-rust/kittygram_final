@@ -1,7 +1,5 @@
 name: Main Kittygram Workflow
 
-name: Main Taski workflow
-
 on:
   push:
     branches:
