@@ -1,5 +1,7 @@
 name: Main Kittygram Workflow
 
+name: Main Taski workflow
+
 on:
   push:
     branches:
@@ -7,9 +9,10 @@ on:
 
 jobs:
   tests:
+    # Разворачиваем окружение:
     runs-on: ubuntu-latest
 
-   steps:
+    steps:
     # Копируем код проекта
     - name: Check out code
       uses: actions/checkout@v3
